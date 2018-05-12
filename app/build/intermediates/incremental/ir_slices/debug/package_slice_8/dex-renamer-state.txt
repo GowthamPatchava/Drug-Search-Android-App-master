@@ -1,0 +1,4 @@
+#Sat May 12 00:25:00 PDT 2018
+base.0=E\:\\Drug-Search-Android-App-master\\Drug-Search-Android-App-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\25
+path.0=classes.dex
+renamed.0=classes.dex

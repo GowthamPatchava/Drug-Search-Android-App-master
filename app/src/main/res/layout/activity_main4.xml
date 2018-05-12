@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbbbbb"
+    tools:context="in.tvac.akshayejh.firebasesearch.Main4Activity">
+
+    <ImageButton
+        android:id="@+id/appointment"
+        android:layout_width="@dimen/icon_sizes"
+        android:layout_height="@dimen/icon_sizes"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="43dp"
+        android:cropToPadding="true"
+        android:onClick="onAppoinClick"
+        android:scaleType="fitCenter"
+        android:src="@drawable/appoin"
+        app:srcCompat="@drawable/appoin" />
+
+    <TextView
+        android:id="@+id/Reminders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/appointment"
+        android:layout_marginTop="13dp"
+        android:text="APPOINTMENTS"
+        android:textSize="25sp" />
+
+
+    <ImageButton
+        android:id="@+id/orders"
+        android:layout_width="@dimen/icon_sizes"
+        android:layout_height="@dimen/icon_sizes"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/appointment"
+        android:layout_marginEnd="31dp"
+        android:cropToPadding="true"
+        android:onClick="onOrderClick"
+        android:scaleType="fitCenter"
+        android:src="@drawable/orders"
+        app:srcCompat="@drawable/orders" />
+
+    <TextView
+        android:id="@+id/rd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Reminders"
+        android:layout_alignBottom="@+id/Reminders"
+        android:layout_alignEnd="@+id/orders"
+        android:layout_marginEnd="20dp"
+        android:text="ORDERS"
+        android:textSize="25sp" />
+
+    <ImageButton
+        android:id="@+id/history"
+        android:layout_width="@dimen/icon_sizes"
+        android:layout_height="@dimen/icon_sizes"
+        android:layout_alignStart="@+id/appointment"
+        android:layout_below="@+id/appointment"
+        android:layout_marginTop="109dp"
+        android:cropToPadding="true"
+        android:onClick="onHistoryClick"
+        android:scaleType="fitCenter"
+        android:src="@drawable/histor"
+        app:srcCompat="@drawable/histor" />
+
+    <TextView
+        android:id="@+id/hist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/history"
+        android:layout_below="@+id/history"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="25dp"
+        android:text="HISTORY"
+        android:textSize="25sp" />
+
+    <ImageButton
+        android:id="@+id/search"
+        android:layout_width="@dimen/icon_sizes"
+        android:layout_height="@dimen/icon_sizes"
+        android:layout_alignStart="@+id/orders"
+        android:layout_alignTop="@+id/history"
+        android:cropToPadding="true"
+        android:onClick="onSearchClick"
+        android:scaleType="fitCenter"
+        android:src="@drawable/search"
+        app:srcCompat="@drawable/search" />
+
+    <TextView
+        android:id="@+id/sear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/hist"
+        android:layout_alignStart="@+id/rd"
+        android:text="SEARCH"
+        android:textSize="25sp"/>
+
+
+
+
+</RelativeLayout>
